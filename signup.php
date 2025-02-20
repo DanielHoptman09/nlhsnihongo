@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Success message and redirect
     echo "<script>alert('Account created successfully! Redirecting...');
-          setTimeout(function() { window.location.href = 'main/index.html'; }, 2000);
+          setTimeout(function() { window.location.href = 'account.html'; }, 2000);
           </script>";
     exit();
 }
