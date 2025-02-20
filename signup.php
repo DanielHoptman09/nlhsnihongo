@@ -1,6 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = trim($_POST["username"]);
+    $displayname = trim($_POST["displayname"]);
     $email = trim($_POST["email"]);
     $password = trim($_POST["password"]);
     $confirm_password = trim($_POST["confirm_password"]);
